@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: bo ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("black.jpg") ;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Username{
+display: flex;
+width: 95%;
+justify-content: center;
+align-items: center;
+margin: 30px;
+height: 50px;
+}
+
+.Gmail-id{
+    display: flex;
+width: 95%;
+justify-content: center;
+align-items: center;
+margin: 30px;
+height: 50px;
+    }
+
+    .Password-box{
+        display: flex;
+width: 95%;
+justify-content: center;
+align-items: center;
+margin: 30px;
+height: 50px;
+        }
+
+
+.Username input{
+width: 95%;
+height: 100%;
+background: transparent;
+border: none;
+border: 2px solid rgba(255, 255, 255, 255);
+outline: none;
+border-radius: 40px;
+color: white;
+font-size: large;
+}
+
+
+.Gmail-id input{
+    width: 95%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 255);
+    outline: none;
+    border-radius: 40px;
+    color: white;
+font-size: large;
+    }
+
+    .Password-box input{
+        width: 95%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        border: 2px solid rgba(255, 255, 255, 255);
+        outline: none;
+        border-radius: 40px;
+        color: white;
+font-size: large;
+        }
+
+.Username ::placeholder{
+    color: bisque;
+    font-size: medium;  
+}
+
+.Username i {
+    position: absolute;
+    right: 570px;
+    color: white;
+    font-size: large;
+
+}
+
+.Gmail-id ::placeholder{
+    color: bisque;
+    font-size: medium;  
+}
+
+.Gmail-id i {
+    position: absolute;
+    right: 570px;
+    color: white;
+    font-size: large;
+
+}
+
+.Password-box ::placeholder{
+    color: bisque;
+    font-size: medium;  
+}
+
+.Password-box i {
+    position: absolute;
+    right: 570px;
+    color: white;
+    font-size: large;
+
+}
+
+.BUTTON{
+    width:  100%;
+    height: 45px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 12PX;
+    border-radius: 45PX;
+    border: transparent;
+    outline: none;
+    font-size: medium;
+}
+
+.remember-me{
+ margin-left: 35px;
+
+}
+
